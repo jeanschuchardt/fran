@@ -3,127 +3,162 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Perfil do Terapeuta</title>
+    <title>Terapeuta - Nome do Terapeuta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
-            color: #444;
+            background-color: #ffffff;
+            color: #014401;
         }
 
         header {
-            background-color: #2c3e50;
-            color: #fff;
+            background-color: #a8db98;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px 0;
             text-align: center;
-            padding: 40px 0;
         }
 
-        .container {
-            width: 80%;
-            margin: 20px auto;
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            margin-bottom: 10px;
-        }
-
-        p {
-            line-height: 1.8;
-            margin-bottom: 15px;
-        }
-
-        .profile-pic {
+        .logo {
             max-width: 200px;
-            border-radius: 50%;
-            display: block;
-            margin: 20px auto;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
         }
 
-        footer {
-            background-color: #333;
+        .navbar {
+            background-color: #299b6a;
             color: #fff;
             text-align: center;
             padding: 10px 0;
         }
 
-        footer p {
-            margin: 0;
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .banner {
+            background-image: url('caminho/para/sua/imagem.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: #014401;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+        }
+
+        .section {
+            padding: 40px 0;
+        }
+
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #299b6a;
+        }
+
+        .section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
         }
 
         .whatsapp-btn {
             display: inline-block;
-            background-color: #25d366;
+            background-color: #299b6a;
             color: #fff;
             text-decoration: none;
             font-weight: bold;
-            padding: 10px 20px;
+            padding: 15px 30px;
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
 
         .whatsapp-btn:hover {
-            background-color: #128c7e;
+            background-color: #014401;
         }
 
-         /* Estilos para telas menores */
-         @media only screen and (max-width: 600px) {
-            .container {
-                width: 90%;
-            }
-
-            h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            .profile-pic {
-                max-width: 150px;
-            }
-
-            .whatsapp-btn {
-                display: block;
-                width: 100%;
-                margin-bottom: 20px;
-            }
+        footer {
+            background-color: #299b6a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Franciele Gomes</h1>
+        <!-- <img class="logo" src="caminho/para/sua/logo.png" alt="Logo"> -->
     </header>
 
-    <div class="container">
-        <img class="profile-pic" src="caminho/para/sua/imagem.jpg" alt="Foto do Terapeuta">
+    <div class="navbar">
+        <a href="#sobre">Sobre</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#contato">Contato</a>
+    </div>
 
-        <!-- <h2>Nome do Terapeuta</h2> -->
-        <p>Especialidades: Terapia transpessoal, Terapia Familiar</p>
-        <p>Experiência: X anos trabalhando como terapeuta, ajudando indivíduos e famílias a superar desafios emocionais e psicológicos.</p>
-        <p>Abordagem: Procuro proporcionar um ambiente acolhedor e empático para meus pacientes, utilizando técnicas com base na abordagem humanista.</p>
-        <p>Entre em contato para agendar uma consulta:</p>
-        <p>Email: terapeuta@email.com</p>
-        <p>Telefone: (51) 9 9101-1901</p>
+    <div class="banner">
+        <div class="container">
+            <h1>Franciele Gomes</h1>
+        </div>
+    </div>
 
-        <a href="https://api.whatsapp.com/send/?phone=5551991011901&text&type=phone_number&app_absent=0"
-            class="whatsapp-btn" target="_blank">Entrar em Contato pelo WhatsApp</a>
+    <div id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre</h2>
+            <p>Eu acredito que cada pessoa é um ser único e multidimensional.
+
+                Por isso, trabalho com uma abordagem terapêutica que integra o corpo, a mente, o espírito e as emoções, desta forma buscando compreender os aspectos transpessoais e espirituais da experiência humana.
+                
+                A conversa guia a primeira fase do atendimento, conforme aprofundamos podemos utilizar ferramentas como: Thetahealing, Barras de Access, Apometria, Reiki, Baralho cigano e Cristais. Com isso, contribuindo para promover o autoconhecimento e o desenvolvimento pessoal.
+                
+                Meu papel como terapeuta é acolher você com respeito, empatia e compaixão, em um espaço seguro e sem julgamentos. Desta forma vou te guiar a se conectar com a sua essência e com o seu propósito. Desse ponto de conexão e consciência, você mesmo conseguirá ver sua realidade de diferentes pontos de vista e explorar seu próprio ser em busca da sua autorrealização e a solução de seus desafios.
+                
+                Você se identifica com essa proposta?
+                
+                A primeira sessão é gratuita.
+                
+                Entre em contato comigo e agende sua sessão, podendo ser presencial em Porto Alegre ou online..</p>
+        </div>
+    </div>
+
+    <div id="especialidades" class="section">
+        <div class="container">
+            <h2>Especialidades.</h2>
+            <p>Terapia Transpessoal.</p>
+            <p>Cura multidimensional CuraAmor.</p>
+            <p>Thetahealing.</p>
+            <p>Baralho Cigano.</p>
+            <p>Reiki.</p>
+            <p>Constelação Familiar.</p>
+            
+        </div>
+    </div>
+
+    <div id="contato" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Telefone: (51) 9 9101-1901</p>
+            <a href="https://api.whatsapp.com/send?phone=+5551991011901&text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta."
+            class="whatsapp-btn" target="_blank">Agende sua consulta</a>
+        </div>
     </div>
 
     <footer>
-        <p>&copy; 2023 Nome do Terapeuta</p>
+        <p>&copy; 2023 Terapeuta Franciele Gomes</p>
     </footer>
 </body>
 
