@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil do Terapeuta</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #444;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .profile-pic {
+            max-width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25d366;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #128c7e;
+        }
+
+         /* Estilos para telas menores */
+         @media only screen and (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .profile-pic {
+                max-width: 150px;
+            }
+
+            .whatsapp-btn {
+                display: block;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Franciele Gomes</h1>
+    </header>
+
+    <div class="container">
+        <img class="profile-pic" src="caminho/para/sua/imagem.jpg" alt="Foto do Terapeuta">
+
+        <!-- <h2>Nome do Terapeuta</h2> -->
+        <p>Especialidades: Terapia transpessoal, Terapia Familiar</p>
+        <p>Experiência: X anos trabalhando como terapeuta, ajudando indivíduos e famílias a superar desafios emocionais e psicológicos.</p>
+        <p>Abordagem: Procuro proporcionar um ambiente acolhedor e empático para meus pacientes, utilizando técnicas com base na abordagem humanista.</p>
+        <p>Entre em contato para agendar uma consulta:</p>
+        <p>Email: terapeuta@email.com</p>
+        <p>Telefone: (51) XXXX-XXXX</p>
+
+        <a href="https://api.whatsapp.com/send?phone=seunumerodetelefone&text=Ol%C3%A1%21%20Gostaria%20de%20marcar%20uma%20consulta."
+            class="whatsapp-btn" target="_blank">Entrar em Contato pelo WhatsApp</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Nome do Terapeuta</p>
+    </footer>
+</body>
+
+</html>
